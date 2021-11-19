@@ -27,7 +27,8 @@ php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\JWTAuthServicePro
 ```
 ### Generate secret key
 This will update your .env
-```php artisan jwt:secret
+```js
+php artisan jwt:secret
 ```
 ### config/auth.php
 ```'defaults' => [
